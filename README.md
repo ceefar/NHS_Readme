@@ -11,8 +11,7 @@ Employeers if you would like a link to view the old web app please contact me us
 ### Personal Project [NEW] [Current] 
 [ api | data-cleaning | etl | data-analysis | async | web scraping | mysql | python | streamlit | echarts | cicd ]   
   
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">    
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">    
+
     
 ### Summary
 **Web app allows users to make informed decisions about their referrals based on wait times for every department at every hospital in England**  
@@ -27,8 +26,11 @@ Employeers if you would like a link to view the old web app please contact me us
 - Currently in Alpha, quickly put together very basic functionality to explore a multitude of concepts, code needs to be optimised  
 - Upcoming : refactoring project in /v2_alpha for improved structure, oop implementation, and db updated schema
    
+   
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">    
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">    
 
-  ### NEW - CI/CD Implementation   
+### NEW - CI/CD Implementation   
 **Ensures fresh NHS data from the hidden API is cooked up once a day, trigger creation of historical data, creates new data with improved schema with ctes, runs unittests, runs quality assurance**  
   
 - Maintains uptime and stays operational without any manual need to load the web app to run the etl which pulls the live data  
