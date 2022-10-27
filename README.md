@@ -1,16 +1,19 @@
 ## NHS wait times
-
-Please note I've taken this project down while I'm refactoring it to a new version, but you can still check out the screenshots, features, and functionality of the v1 version below.
-
-    
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">  
+  
+<img src="https://github.com/ceefar/NHS_wait_times/blob/main/v2_home_concept_preview.png" width="800">  
+  
+I've taken down most of the pages for this project while I'm refactoring it to a new version, but for now you can still check out the screenshots, features, and functionality of the v1 version below.  
+  
+Employeers if you would like a link to view the old web app please contact me using rob.farq@gmail.com
 
 [![has-fresh-nhs-data](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml/badge.svg?event=schedule)](https://github.com/ceefar/NHS_wait_times/actions/workflows/run_pytest_on_db_dataset.yml) [![create_v2_home_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml) [![create_daily_qa_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml)
   
 ### Personal Project [NEW] [Current] 
 [ api | data-cleaning | etl | data-analysis | async | web scraping | mysql | python | streamlit | echarts | cicd ]   
   
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">    
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">    
+    
 ### Summary
 **Web app allows users to make informed decisions about their referrals based on wait times for every department at every hospital in England**  
   
