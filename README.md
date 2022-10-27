@@ -56,16 +56,6 @@ Use case page [alpha - old screenshots] - allows users to select departments the
 
 <img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_2_2.png" width="400"><img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_2_3.png" width="400">
   
-   
------
-  
-### COMING SOON   
-### v2_Concept  
-**Upgraded UI + Updated Schema + Functionality & Optimisation Refactor**   
-Currently ongoing refactor to create a drastically improved codebase (cleaner code, class based structure, ci/cd, upgraded schema, stronger emphasis on best practices, greater logging & qa, optimisations, etc).  
-The primary aim being to significantly improve webapp load times (current speed optimisations approx 5-10x), as well as update the ui to a much more impactful, modern day design and implement app-wide ux upgrades.  
-
-<img src="https://github.com/ceefar/NHS_wait_times/blob/main/v2_home_concept_preview.png" width="800">
   
 ### Project Roadmap - [not ordered]
 
