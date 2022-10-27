@@ -1,8 +1,10 @@
 ## NHS wait times
 
-I've taken this project down while I'm refactoring it to a new version, check out the screenshots, features, and functionality of the v1 version below.
+Please note I've taken this project down while I'm refactoring it to a new version, but you can still check out the screenshots, features, and functionality of the v1 version below.
 
-
+    
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">
+<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">  
 
 [![has-fresh-nhs-data](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml/badge.svg?event=schedule)](https://github.com/ceefar/NHS_wait_times/actions/workflows/run_pytest_on_db_dataset.yml) [![create_v2_home_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml) [![create_daily_qa_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml)
   
@@ -11,6 +13,7 @@ I've taken this project down while I'm refactoring it to a new version, check ou
   
 ### Summary
 **Web app allows users to make informed decisions about their referrals based on wait times for every department at every hospital in England**  
+  
 - Speed optimised asyncronous ETL extracts large publicly available NHS datasets, cleans the data, and loads it to my own hosted database 
 - Automatically creates historical trends table data when new data fom the ETL is loaded with MySQL triggers
 - Coalesce multiple datasets in MySQL to ensure data consistency (if no data for avgWait first appt, fallback to avgWait for treatment)
@@ -30,12 +33,6 @@ I've taken this project down while I'm refactoring it to a new version, check ou
 - New Pipeline to create aggregated data for new concept home page with improved schema  
 - **NEW** - Custom coloured logs during CICD Quality Assurance Processes (+ DB storage)  
 <img src="https://github.com/ceefar/NHS_wait_times/blob/main/readme_imgs/clean_af_cicd_qa_logs.png" width="400">  
-    
-### Live Demo & Screenshots
-You can check out the web app in its current state [HERE](https://ceefar-nhs.streamlitapp.com/) (though i can't confirm its current state so it may be buggy), you can also get a feel for the current state of the project from the screenshots below.  
-    
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_1.png" width="800">
-<img src="https://thehardgainerbible.com/wp-content/uploads/2022/08/nhs_app_alpha_3.png" width="800">  
   
 ### NEW - Compare  
 Compare two hospitals in the country to see their overall performance vs either countrywide or regional averages   
