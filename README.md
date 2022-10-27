@@ -1,17 +1,10 @@
-## NHS_wait_times
-  
-### Check out the WEB APP -> [ceefar-nhs.streamlitapp.com](https://ceefar-nhs.streamlitapp.com/)
-   
-### [ Continuous Integration | Continuous Delivery ] 
-  
-**[ CI ] Get fresh NHS API data daily**  
-[![has-fresh-nhs-data](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml/badge.svg?event=schedule)](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml)   
-   
-**[ CI ] New Pipeline - Create Home v2_Concept data**   
-[![create_v2_home_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml)
-    
-**[ CD ] Create Quality Assurance data daily**   
-[![create_daily_qa_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml)  
+## NHS wait times
+
+I've taken this project down while I'm refactoring it to a new version, check out the screenshots, features, and functionality of the v1 version below.
+
+
+
+[![has-fresh-nhs-data](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml/badge.svg?event=schedule)](https://github.com/ceefar/NHS_wait_times/actions/workflows/run_pytest_on_db_dataset.yml) [![create_v2_home_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml) [![create_daily_qa_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml)
   
 ### Personal Project [NEW] [Current] 
 [ api | data-cleaning | etl | data-analysis | async | web scraping | mysql | python | streamlit | echarts | cicd ]   
@@ -29,10 +22,8 @@
 - Upcoming : refactoring project in /v2_alpha for improved structure, oop implementation, and db updated schema
    
 
-### NEW - CI/CD Implementation   
+  ### NEW - CI/CD Implementation   
 **Ensures fresh NHS data from the hidden API is cooked up once a day, trigger creation of historical data, creates new data with improved schema with ctes, runs unittests, runs quality assurance**  
-  
-[![has-fresh-nhs-data](https://github.com/ceefar/NHS_wait_times/actions/workflows/confirm_data_or_run_etl.yml/badge.svg?event=schedule)](https://github.com/ceefar/NHS_wait_times/actions/workflows/run_pytest_on_db_dataset.yml) [![create_v2_home_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_home_data.yml) [![create_daily_qa_data](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml/badge.svg)](https://github.com/ceefar/NHS_wait_times/actions/workflows/create_v2_qa_data_basic.yml)
   
 - Maintains uptime and stays operational without any manual need to load the web app to run the etl which pulls the live data  
 - Pytest GitHub actions ensures data completeness is at acceptable standard (for using the app)  
